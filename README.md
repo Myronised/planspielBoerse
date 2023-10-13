@@ -1,4 +1,4 @@
-##Planspiel Börse - Discord Bot (Demokratie-Modus)
+## Planspiel Börse - Discord Bot (Demokratie-Modus)
 ### Copyright & License
 
 © 2023 Ben Clemenz, © 2022-2023 Myronised Network 
@@ -15,7 +15,7 @@
     See the License for the specific language governing permissions and
     limitations under the License. 
 
-###Quick Installation
+### Quick Installation
 - .env mit einem Code Editor (bspw. Visual Studio Code, Notepad++, ...) öffnen
 - Bei BOT_TOKEN="YOUR_BOT_TOKEN" das Discord Bot Token eingeben
 - Dateien auf Server hochladen (mind. Python 3.8) oder in IDE laden
