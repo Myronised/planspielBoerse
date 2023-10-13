@@ -30,7 +30,7 @@ bot = commands.Bot(
 if __name__ == '__main__':
     log.info('Starting bot...')
     cogs = [p.stem for p in Path('cogs').glob('**/*.py') if not p.name.startswith('__')]
-    log.info('Loading extensions...')
+    log.info('Loading %d extensions...', len(cogs))
 
 token = os.getenv('BOT_TOKEN')
 
@@ -38,7 +38,7 @@ async def main():
     async with bot:
         for cog in cogs:
             await bot.load_extension(f'cogs.{cog}')
-            log.info('Loaded cogs')
+            log.info('Loaded %s', cog)
         await bot.start(token)
 
 asyncio.run(main())
