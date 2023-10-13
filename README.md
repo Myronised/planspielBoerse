@@ -17,6 +17,6 @@
 
 ### Quick Installation
 - .env mit einem Code Editor (bspw. Visual Studio Code, Notepad++, ...) öffnen
-- Bei BOT_TOKEN="YOUR_BOT_TOKEN" das Discord Bot Token eingeben
+- Bei BOT_TOKEN=YOUR_BOT_TOKEN das Discord Bot Token eingeben
 - Dateien auf Server hochladen (mind. Python 3.8) oder in IDE laden
 - main.py ausführen
